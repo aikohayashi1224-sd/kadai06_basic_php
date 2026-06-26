@@ -26,6 +26,22 @@
         
         button { width: 100%; background-color: #ff5252; color: white; border: none; padding: 15px; border-radius: 10px; font-size: 18px; margin-top: 30px; cursor: pointer; transition: 0.3s; }
         button:hover { background-color: #ff1744; }
+
+        .report-link {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #0277bd; /* 青色ベース */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.report-link:hover {
+    background-color: #01579b; /* ホバー時に少し濃い青へ */
+}
+
     </style>
 </head>
 <body>
@@ -65,6 +81,11 @@
 
         <button type="submit">フィードバックを送信</button>
     </form>
+
+<div style="text-align: center; margin-top: 30px;">
+    <a href="report.php" class="report-link">分析レポートを見る 📈</a>
+</div>
+
 </div>
 
 </body>
